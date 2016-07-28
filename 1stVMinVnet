@@ -1,0 +1,16 @@
+1st vm inside vnet
+Name	vminvnet
+User name	sumit
+Size	Basic A0
+Disk type	Standard
+Storage account	(new) sumitvnetstrg
+Domain name	(new) sumitvmclassicVnet
+Virtual network	TestVnet
+Subnet	Subnet-1 (10.0.1.0/27)
+Private IP address	Dynamic
+Virtual IP address	(new) SumitReserveipvm1
+Endpoints	RDP TCP (TCP/3389 to 3389)
+RDP UDP (UDP/3389 to 3389)
+WinRM (TCP/5986 to 5986)
+Availability set	None
+Diagnostics	Disabled
